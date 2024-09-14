@@ -1,0 +1,94 @@
+@font-face{
+    src: url('assets/fonts/static/Inter-Bold.ttf');
+    font-family: bold;
+}
+@font-face {
+    font-family: regular;
+    src: url('assets/fonts/static/Inter-Regular.ttf');
+}
+@font-face{
+    src: url('assets/fonts/static/Inter-SemiBold.ttf');
+    font-family: semi-bold;
+}
+body{
+    background:  hsl(0, 0%, 8%);
+    color: white;
+}
+.container{
+    width: 400px;
+    margin: 200px auto;
+    background: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+}
+#profile-picture{
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+.details{
+    text-align: center;
+
+}
+#name{
+    font-family: bold;
+    
+}
+#address{
+    color: hsl(75, 94%, 57%);
+    font-family: semi-bold;
+}
+#skills{
+    font-family: regular;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+
+}
+li{
+    list-style-type: none;
+    font-family: semi-bold;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 300px;
+    transform: translateX(-20px);
+}
+li:hover{
+    transform: scale(1.2);
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+}
+.profile:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    
+}
+.attribution{
+    margin-bottom: 20px;
+}
+#site,#coder{
+    color: gray;
+    
+}
+#site:hover,#coder:hover{
+    color:hsl(75, 94%, 57%);
+}
